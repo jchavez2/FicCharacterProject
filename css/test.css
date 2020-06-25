@@ -1,0 +1,27 @@
+body {
+    background-color: darkkhaki;
+}
+h1{
+    font-size: 30px;
+    color: rgb(26, 95, 72);
+}
+
+h2 {
+    color: rgb(148, 10, 10);
+    font-size: 20px;
+}
+
+.big {
+    font-size: 60px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.big.uppercase{
+    color: royalblue;
+}
+h1 span {
+    color: slategray;
+}
