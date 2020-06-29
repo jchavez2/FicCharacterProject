@@ -1,9 +1,13 @@
 body {
     margin: 0px;
+    font-family: 'Noto Serif KR' , serif;
+    background-color: black;
+    color: darkgrey;
 }
 
 header {
     background-color: darkgray;
+    color: black;
     padding: 25px;
 }
 
@@ -11,6 +15,7 @@ header h1 {
     margin: 0px;
     color: solid black;
     text-align: center;
+    
 }
 header img {
     border-style: solid;
@@ -18,4 +23,24 @@ header img {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+
+main {
+    padding: 0px 20px 40px 20px;
+}
+
+.main.left1.col-sm {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+main img {
+    border: 1px darkgray;
+    border-style: solid;
+}
+
+footer {
+    background-color: darkgray;
+    color: black;
+    padding: 1px;
 }
