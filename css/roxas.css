@@ -5,12 +5,11 @@ html {
 body {
     background-image: url(../images/khsymbol.png);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: auto;
     margin: 0px;
     font-family: 'Noto Serif KR' , serif;
     background-color: black;
-    color: darkgrey;
+    color: solid black;
 }
 
 header {
@@ -20,8 +19,6 @@ header {
 }
 
 header h1 {
-    margin: 0px;
-    color: solid black;
     text-align: center;
     
 }
@@ -49,7 +46,8 @@ main img {
 }
 
 footer {
-    background-color: darkgray;
+    font-size: 12px;
+    background-color: rgba(211, 211, 211, 0.911);
     color: black;
     padding: 1px;
 }
