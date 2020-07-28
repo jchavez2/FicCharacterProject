@@ -1,4 +1,12 @@
+html {
+    height: 100%;
+}
+
 body {
+    background-image: url(../images/khsymbol.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto;
     margin: 0px;
     font-family: 'Noto Serif KR' , serif;
     background-color: black;
@@ -6,7 +14,7 @@ body {
 }
 
 header {
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0.75);
     color: black;
     padding: 25px;
 }
@@ -26,6 +34,7 @@ header img {
 }
 
 main {
+    background-color: rgba(169, 169, 169, 0.75);
     padding: 0px 20px 40px 20px;
 }
 
